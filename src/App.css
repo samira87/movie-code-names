@@ -1,6 +1,8 @@
 .App {
   text-align: center;
+  height: inherit;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -11,6 +13,49 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.game-container {
+  width: 100%;
+  height: 100%;
+}
+
+.game-header {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  height: 8%;
+}
+
+.game-number {
+  margin-right: 30px;
+} 
+
+.spy-master-checkbox {
+  margin-right: 6px;
+}
+
+.board-container {
+  height: 92%;
+  width: 100%;
+}
+
+.board-row {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.board-col {
+  height: 100%;
+  width: 20%;
+}
+
+.square {
+  height: 100%;
+  width: 100%;
+  text-transform: capitalize;
 }
 
 .App-header {
@@ -26,6 +71,22 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.open.blue {
+  background-color: lightblue;
+}
+
+.open.red {
+  background-color: red;
+}
+
+.open.grey {
+  background-color: grey;
+}
+
+.open.neutral {
+  background-color: lightyellow;
 }
 
 @keyframes App-logo-spin {
