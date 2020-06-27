@@ -24,11 +24,11 @@
   display: flex;
   justify-content: center;
   padding: 20px;
-  height: 8%;
 }
 
 .game-number {
   margin-right: 30px;
+  height: 20px;
 } 
 
 .spy-master-checkbox {
