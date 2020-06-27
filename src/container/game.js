@@ -26,6 +26,8 @@ const Game = () => {
         }
         
         setGameNo(newGameNo)
+        setSpyMaster(false)
+        setTileOpen(Array(25).fill(false))
     }
 
     const tileClicked = (event) => {
