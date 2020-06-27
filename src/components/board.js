@@ -25,7 +25,7 @@ const Board = ({movies, nines, eights, nineColor, killer, fullOpen, tilesState, 
                                 color = eight_color
                             }
 
-                            if (killer == idx) {
+                            if (killer === idx) {
                                 color = 'grey'
                             }
    
